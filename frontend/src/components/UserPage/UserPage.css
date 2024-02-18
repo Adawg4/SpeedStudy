@@ -1,0 +1,94 @@
+.user-wrapper {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+}
+
+.user-sidebar {
+  background: #126bf1;
+  width: 15%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-profile {
+  padding-top: 5%;
+  border-radius: 50%;
+}
+
+.session-names {
+  width: 60%;
+  padding-top: 5%;
+}
+
+.session-name-block {
+  background-color: #d9d9d9;
+  margin-bottom: 6%;
+  border: 5px solid #ffb703;
+}
+
+.session-name-block p {
+  text-align: center;
+  padding-top: 4%;
+}
+
+.session-name-header {
+  background-color: #ffb703;
+}
+
+.add-image {
+  width: 7%;
+  float: right;
+  padding-right: 5%;
+}
+.add-wrapper {
+  width: 100%;
+}
+
+
+.user-main-section {
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-search {
+	width: 55%;
+}
+
+.user-search input {
+	width: 100%;
+}
+
+.session-form {
+  height: 25vh;
+  position: absolute; 
+  top: 50%;
+  left: 50%;
+}
+
+.session-form form {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.file-img {
+  width: 20%;
+}
+
+.user-document-section {
+  display: flex;
+  height: 100vh;
+}
+
+.chat-link {
+  padding-top: 3%;
+}
+.user-start-button {
+  background-color: #FFB703;
+  width: 100%;
+  padding-top: 5%;
+}
