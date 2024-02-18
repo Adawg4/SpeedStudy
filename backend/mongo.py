@@ -3,7 +3,7 @@ from pymongo.server_api import ServerApi
 
 
 class MongoClient:
-    uri = "mongodb+srv://joeljaison13:password@SpeedStudy.ydstmcl.mongodb.net/?retryWrites=true&w=majority"
+    uri = ""
     def __init__(self):
         self.client = MongoClient(self.uri, server_api=ServerApi('1'))
 
