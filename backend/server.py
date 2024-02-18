@@ -8,7 +8,7 @@ import os
 
 app = Flask(__name__)
 CORS(app)
-os.environ["OPENAI_API_KEY"] = "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" 
+os.environ["OPENAI_API_KEY"] = "" 
 chatbot = ChatBot()
 
 @app.route('/create_user', methods=['POST'])
